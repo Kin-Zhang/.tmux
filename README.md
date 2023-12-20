@@ -1,3 +1,18 @@
+
+Tmux
+---
+
+
+Installing in `~`:
+```
+cd ~ & git clone https://github.com/gpakosz/.tmux.git
+ln -s -f .tmux/.tmux.conf
+cp .tmux/.tmux.conf.local .
+```
+
+---
+<details>
+  <summary>[Please check the official repo or below origin read for more detail]</summary>
 .tmux
 =====
 
@@ -21,13 +36,7 @@ You can install Oh my tmux! at any of the following locations:
 - `$XDG_CONFIG_HOME/tmux`
 - `~/.config/tmux`
 
-Installing in `~`:
-```
-$ cd
-$ git clone https://github.com/gpakosz/.tmux.git
-$ ln -s -f .tmux/.tmux.conf
-$ cp .tmux/.tmux.conf.local .
-```
+
 
 Installing in `$XDG_CONFIG_HOME/tmux`:
 ```
@@ -384,3 +393,5 @@ font.
 ![regedit](https://cloud.githubusercontent.com/assets/553208/19741304/71a2f3ae-9bc0-11e6-96aa-4c09a812c313.png)
 
 [font linking]: https://msdn.microsoft.com/en-us/goglobal/bb688134.aspx
+
+</details>
