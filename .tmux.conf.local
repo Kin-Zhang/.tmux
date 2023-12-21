@@ -233,7 +233,8 @@ tmux_conf_theme_right_separator_sub="|"
 #     - #{username}
 #     - #{username_ssh}
 tmux_conf_theme_status_left=" #S "
-tmux_conf_theme_status_right=" #{prefix} %d %b , %R | #{username}#{root} | #{hostname} "
+tmux_conf_theme_status_right=" #{prefix} #{pairing}#{synchronized} #(curl wttr.in?format="%%c%%20%%t") , %d %b , %R | #{username}#{root} | #{hostname} "
+# tmux_conf_theme_status_right=" #{prefix} %d %b , %R | #{username}#{root} | #{hostname} "
 
 # status left style
 tmux_conf_theme_status_left_fg="$tmux_conf_theme_colour_6,$tmux_conf_theme_colour_7,$tmux_conf_theme_colour_8"
