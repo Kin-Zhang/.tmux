@@ -5,7 +5,7 @@ Tmux
 
 Installing in `~`:
 ```
-cd ~ & git clone https://github.com/gpakosz/.tmux.git
+cd ~ & git clone https://github.com/Kin-Zhang/.tmux.git
 ln -s -f .tmux/.tmux.conf
 cp .tmux/.tmux.conf.local .
 ```
